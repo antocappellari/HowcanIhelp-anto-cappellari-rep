@@ -1,0 +1,274 @@
+body{
+    display:grid;
+    grid-template-areas:
+    "header"
+    "header"
+    "main"
+    "main"
+    "main"
+    "main"
+    "footer";
+    height: 100vh;
+    margin:0;
+    justify-content:stretch;
+    align-content:stretch;
+    background-image: url(../img/aurora.jpg);
+    Background-position: center;
+    Background-repeat: no-repeat;
+    background-attachment: fixed;
+    Background-size: cover;
+}
+
+/* Header*/
+header{
+  grid-area:header;
+}
+/* Campo main*/
+main{
+  grid-area:main;
+}
+.home{
+  display:grid;
+  grid-template-areas:
+  "letsstart search searchbuton"
+  "countryfilter countryfilter countryfilter"
+  "Subtitle3 Subtitle3 Subtitle3"
+  "animals Enviroment Humanity"
+  "animals Enviroment Humanity"
+  "animals Enviroment Humanity";
+
+}
+.letsstart{
+  grid-area:letsstart;
+  opacity: 0.6;
+  background:rgba(17, 19, 19, 0.863);
+  Display:flex;
+  Justify-self:start;
+}
+.subtitle{
+  Display: flex;
+  color:rgba(230, 233, 235, 0.856);
+  font-family: "Calibri", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  Justify-content: start;
+  }
+
+.search{
+  opacity: 0.6;
+  background:rgba(17, 19, 19, 0.863);
+  grid-area:search;
+  display:flex;
+}
+.searchbuton{
+  opacity: 0.6;
+  background:rgba(17, 19, 19, 0.863);
+  grid-area:searchbuton;
+  display:flex;
+}
+.countryfilter{
+  grid-area:countryfilter;
+  display:flex;
+  justify-content: start;
+  align-content:start;
+}
+h3{
+  color:rgba(230, 233, 235, 0.856);
+  font-family: "Calibri", sans-serif;
+  font-size:30px;
+  justify-self:center;
+  align-self:center;
+  Padding:0;
+}
+.Subtitle3{
+  grid-area:Subtitle3;
+}
+.subject{
+  display:flex;
+  Justify-content:space-around;
+  margin:0;
+}
+.animals{
+  grid-area:animals;
+}
+.Enviroment{
+  grid-area:Enviroment;
+}
+.Humanity{
+  grid-area:Humanity;
+}
+.subtitle33{
+    margin:0px;
+  }
+form{
+  display:flex;
+  justify-content:space-around;
+}
+img{
+  width: 400px;
+  height:300px;
+}
+/* Campo main*/
+footer{
+  grid-area:footer;
+  display: flex;
+  align-content: baseline;
+  color:rgba(217, 243, 243, 0.863);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* especificos diseño Header Menu*/
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+        background: #55ACEE;
+        color: white;
+}
+
+h1{
+    color:aliceblue;
+    font-family: "Calibri", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    display: inline;
+}
+
+h2{
+    color:rgba(230, 233, 235, 0.856);
+    font-family: "Calibri", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline;
+    }
+
+.login{
+    display:flex;
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  input{
+      display:inline;
+      width: 20%;
+  }
+
+
+/* especificos diseño pagina contact*/
+
+.contactform{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+}
+
+.formtitle{
+  font-size:30px;
+  padding:30px 20px 20px 20px;
+  margin-top:40px;
+  border-top: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+textarea[id=texto], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+.form-email{
+font-family: Arial, sans-serif;
+font-size: 15px;
+}
+
+.form-Fullname{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  }
+
+.form-Message{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    }
+
+input[type=submit]:hover {
+  background-color: #58c0b2;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width:100%;
+  
+}
