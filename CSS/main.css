@@ -275,16 +275,16 @@ ul {
       grid-row-end:5; 
       }
 
-      .sendbuton{
+  .sendbuton{
         background-color: #58c0b2;
         border: none;
-        color: white;
         text-decoration: none;
         padding: 20px;
         margin: 20px;
         width:90%;
         grid-row-start:5;
-        grid-row-end:6; 
+        grid-row-end:6;
+        Hover: 
       }
 .input[type=text], select {
   width: 100%;
@@ -314,6 +314,12 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+@keyframes{
+h1{
+ animation:fadeinleft; 
+}
+}
+
 
 @media screen and (max-width:768px){
 .menuyrs{
