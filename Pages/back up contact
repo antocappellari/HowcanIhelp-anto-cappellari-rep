@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+</head>
+<body>
+
+    <header>
+    <!-- Add Title -->
+    <div>
+        <h1 class="tituloprincipal1" style="display: inline;">How can I help?</h1>    
+        <h2 class="tituloprincipal2" style="display: inline;">Guide</h2>
+    </div>
+    <!-- Add Log in Button -->
+    <div>
+        <button class="login" type="button">Login</button>
+    </div>
+    <!-- Add Menu links -->
+    <section class="menuyrs">
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Pages/about_us.html">About us</a>
+            </li>
+            <li>
+                <a href="../Pages/What_do_we_do.html">What do we do?</a>
+            </li>
+            <li>
+                <a href="../Pages/FAQs.html">FAQs</a>
+            </li>
+            <li>
+                <a href="../Pages/Contact_us.html">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+    </section>
+    </header>
+    <!-- Add Contact form -->
+    <main class="contactpage">
+    <div class="formtitle">
+        <h2 class="titulocontacto">Contact us</h2>
+    </div>
+    <section class="formulario">
+        <form class="contactform" action="#" method="post" enctype="application/X-www-form-urlencoded">
+            <div class="form-Fullname">
+                <label for="Fullname">Full name</label>
+                <input id="Fullname" type="text" name="Full Name" placeholder="Enter your full name">
+            </div>
+            <div class="form-email">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="E-mail" placeholder="Enter your E-mail">
+            </div>
+            <div class="form-Message">
+                <label for="Message">Leave your message</label>
+                <textarea name="Message" id="texto" cols="40" rows="15" placeholder="Leave your message"></textarea>
+            </div>
+            <div class="sendbuton">
+                <button class="sendcontact" type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <h4>
+            <p class="footer"> While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+                Copyright 2022 by Howcanihelpguide. All Rights Reserved.</p>
+        </h4>
+    </footer>
+</body>
+</html>
